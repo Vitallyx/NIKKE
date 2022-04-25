@@ -9,7 +9,6 @@
     }
     
     body {
-        min-height: 200vh;
         background: #0c0c0c;
         overflow-x: hidden;
     }
@@ -138,13 +137,13 @@ NOUVEAUTE
         overflow: hidden;
     }
     
-    .nouveaute .slider .wrapper {
+    .nouveaute .wrapper {
         position: relative;
         left: 0;
         width: 400%;
     }
     
-    .nouveaute .slider .wrapper .slide {
+    .nouveaute .slide {
         display: flex;
         justify-content: center;
         position: relative;
@@ -152,7 +151,7 @@ NOUVEAUTE
         float: left;
     }
     
-    .nouveaute .slider .wrapper .slide a {
+    .nouveaute .slide a {
         position: absolute;
         align-self: flex-end;
         text-align: center;
@@ -171,7 +170,7 @@ NOUVEAUTE
     }
     
     @media (max-width: 800px) {
-        .nouveaute .slider .wrapper .slide a {
+        .nouveaute .slide a {
             padding: 10px;
             letter-spacing: 1px;
             font-size: 0.8em;
@@ -179,14 +178,14 @@ NOUVEAUTE
     }
     
     @media (max-width: 400px) {
-        .nouveaute .slider .wrapper .slide a {
+        .nouveaute .slide a {
             padding: 5px;
             letter-spacing: 0.5px;
             font-size: 0.6em;
         }
     }
     
-    .nouveaute .slider .wrapper .slide img {
+    .nouveaute .slide img {
         pointer-events: none;
         width: 100%;
         height: 100%;
@@ -223,9 +222,27 @@ ACTUALITE
         height: 700px;
         width: 30%;
         margin: 0 10% 50px;
-        border: 2px solid #1f1f1f;
-        border-radius: 10px;
-        font-size: 0.6em;
+    }
+    
+    .actualite .twitter::-webkit-scrollbar,
+    .actualite .patch::-webkit-scrollbar {
+        height: 10px;
+        width: 10px;
+    }
+    
+    .actualite .twitter::-webkit-scrollbar-thumb,
+    .actualite .patch::-webkit-scrollbar-thumb {
+        background: rgb(255, 255, 255);
+    }
+    
+    .actualite .twitter::-webkit-scrollbar-track,
+    .actualite .patch::-webkit-scrollbar-track {
+        background-color: #1f1f1f;
+    }
+    
+    .actualite .twitter::-webkit-scrollbar-thumb:hover,
+    .actualite .patch::-webkit-scrollbar-thumb:hover {
+        background: rgb(182, 182, 182);
     }
     
     @media (max-width: 800px) {
@@ -237,11 +254,122 @@ ACTUALITE
             width: 80%;
         }
     }
+    /* -------------------------------------------------------------------------------------- */
+    /* -------------------- 
+CHARACTER
+*/
+    
+    .character {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 10% 0;
+    }
+    
+    .character .search {
+        height: 50px;
+        width: 100%;
+        margin: 0 0 20px;
+        background: #1f1f1f;
+    }
+    
+    .list-character {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 0 50px;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .list-character div {
+        min-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+        max-width: 100px;
+        background: #8c8c8e;
+    }
     /* -------------------- 
 FOOTER
 */
     
     footer {
-        height: 50vh;
+        display: flex;
+        align-items: center;
+        font-family: "Oswald", 'Trebuchet MS', sans-serif;
+        width: 100%;
         background: #1f1f1f;
+        color: #8c8c8e;
+    }
+    
+    footer .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin: 0 20% 0;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #8c8c8e;
+    }
+    
+    footer .other {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    footer .other h1 {
+        margin: 10px 0 5px;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    footer .other ul {
+        margin: 0 0 10px;
+    }
+    
+    footer .other li {
+        list-style: none;
+    }
+    
+    footer .other a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 1em;
+    }
+    
+    footer .other a:hover {
+        color: #fff;
+    }
+    
+    footer .social {
+        align-self: flex-end;
+    }
+    
+    footer .copyright {
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    footer .by {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        margin-bottom: 25px;
+    }
+    
+    footer .by a:hover {
+        color: #fff;
+    }
+    
+    footer .bar {
+        align-self: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 1px;
+        background: #ffffff;
     }
