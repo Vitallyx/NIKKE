@@ -1,0 +1,51 @@
+[{
+    "character_id": 1,
+    "character_name": "Maxine",
+    "character_thumbnail": "thumbnail/Maxine.png",
+    "character_rarity": "super_super_rare",
+    "character_weapon": "#",
+    "character_faction": "Missilis Industry",
+    "character_squad": "Metis",
+    "character_description": "A talented researcher who loves nothing more than machines and knowledge. As the brain of Metis, she is both perceptive, whip-smart, and capable of producing weapons in flash.",
+    "character_cv": "Sora Amamiya"
+}, {
+    "character_id": 2,
+    "character_name": "Sugar",
+    "character_thumbnail": "",
+    "character_rarity": "super_rare",
+    "character_weapon": "#",
+    "character_faction": "Tetra Line",
+    "character_squad": "Café Sweetie",
+    "character_description": "A gearhead who gets a thrill from burning rubber. She sells sugar coffee in Café Sweety",
+    "character_cv": "Kawasimi Ayako"
+}, {
+    "character_id": 3,
+    "character_name": "Exia",
+    "character_thumbnail": "",
+    "character_rarity": "super_super_rare",
+    "character_weapon": "#",
+    "character_faction": "Tetra Line",
+    "character_squad": "Protocol",
+    "character_description": "A hacking wunderkind from Protocol. No one can hold a candle to her when it comes to video games.",
+    "character_cv": "Sumire Uesaka"
+}, {
+    "character_id": 4,
+    "character_name": "Alice",
+    "character_thumbnail": "",
+    "character_rarity": "super_super_rare",
+    "character_weapon": "#",
+    "character_faction": "Tetra Line",
+    "character_squad": "Unlimited",
+    "character_description": "An endearing individual who often indulges in fantasy, her ideas about the world are somewhat unique. From Unlimited, she spends her days looking for Rabbit.",
+    "character_cv": "Yomiya Hina"
+}, {
+    "character_id": 5,
+    "character_name": "Emma",
+    "character_thumbnail": "",
+    "character_rarity": "super_super_rare",
+    "character_weapon": "#",
+    "character_faction": "Elysion",
+    "character_squad": "Absolute",
+    "character_description": "Something of a big sister figure for Absolute, who enjoys taking care of others. Other will sometimes pick up on her carelessness.",
+    "character_cv": "Noto Mamiko"
+}]

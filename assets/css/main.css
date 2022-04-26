@@ -57,6 +57,69 @@
         background: rgb(0, 0, 0);
         height: 60px;
     }
+    /* -------------------------------------------------------------------------------------- */
+    /* -------------------- 
+ERROR
+*/
+    
+    .error {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .error .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Oswald", 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding: 50px;
+        background: #1f1f1f;
+    }
+    
+    .error h1 {
+        color: #755683;
+        font-size: 5em;
+        letter-spacing: 2px;
+        margin: 0 0 25px;
+    }
+    
+    .error h2 {
+        color: #8c8c8e;
+        margin: 0 0 25px;
+        font-size: 2em;
+    }
+    
+    .error p {
+        color: #fff;
+        margin: 0 0 50px;
+    }
+    
+    .error a {
+        padding: 10px;
+        text-decoration: none;
+        border: 1px solid black;
+        font-size: 1em;
+        letter-spacing: 2px;
+        color: #fff;
+        background: #00000081;
+    }
+    
+    .error a:hover {
+        transform: scale(1.1);
+        background: #11111181;
+    }
+    
+    @media (max-width: 800px) {
+        .error .content {
+            padding: 20px;
+        }
+    }
+    /* -------------------------------------------------------------------------------------- */
     /* -------------------- 
 HOME INTRODUCTION
 */
@@ -165,8 +228,6 @@ NOUVEAUTE
         letter-spacing: 2px;
         color: #fff;
         background-color: #00000081;
-        flex: 1;
-        transition: 0.6;
     }
     
     @media (max-width: 800px) {
@@ -197,11 +258,15 @@ NOUVEAUTE
     
     .nouveaute .prev,
     .nouveaute .next {
-        cursor: pointer;
         font-size: 1.6em;
         color: #fff;
         text-align: center;
         width: 10%;
+    }
+    
+    .nouveaute .prev i,
+    .nouveaute .next i {
+        cursor: pointer;
     }
     /* -------------------- 
 ACTUALITE
@@ -266,29 +331,60 @@ CHARACTER
         margin: 0 10% 0;
     }
     
+    .list-character {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 0 50px;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .list-character div:hover {
+        transform: scale(1.1);
+    }
+    
+    .list-character div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        min-width: 100px;
+        max-width: 100px;
+        background: #1f1f1f;
+    }
+    
+    .list-character a {
+        text-decoration: none;
+    }
+    
+    .list-character .super_super_rare {
+        border: 5px solid;
+        border-image: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1;
+    }
+    
+    .list-character div h1 {
+        font-family: "Oswald", 'Trebuchet MS', sans-serif;
+        font-size: 1.2em;
+        color: #b8b8b8;
+    }
+    
+    .list-character div img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: fill;
+    }
+    /* -------------------- 
+SEARCH
+*/
+    
     .character .search {
         height: 50px;
         width: 100%;
         margin: 0 0 20px;
         background: #1f1f1f;
     }
-    
-    .list-character {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0 0 50px;
-        gap: 10px;
-        width: 100%;
-    }
-    
-    .list-character div {
-        min-width: 100px;
-        min-height: 100px;
-        max-height: 100px;
-        max-width: 100px;
-        background: #8c8c8e;
-    }
+    /* -------------------------------------------------------------------------------------- */
     /* -------------------- 
 FOOTER
 */
@@ -307,7 +403,14 @@ FOOTER
         flex-wrap: wrap;
         height: auto;
         width: 100%;
-        margin: 0 20% 0;
+        padding: 0 10% 0;
+    }
+    
+    @media (max-width: 800px) {
+        footer .wrapper {
+            margin: 0;
+            padding: 10px;
+        }
     }
     
     footer a {
@@ -322,7 +425,7 @@ FOOTER
     }
     
     footer .other h1 {
-        margin: 10px 0 5px;
+        margin: 50px 0 5px;
         font-size: 1.5em;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -359,7 +462,7 @@ FOOTER
         display: flex;
         justify-content: flex-end;
         text-decoration: none;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     
     footer .by a:hover {

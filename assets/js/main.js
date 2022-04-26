@@ -4,8 +4,8 @@ window.addEventListener('scroll', function() {
     header.classList.toggle("sticky", this.window.scrollY > 0);
 })
 
-let prev = document.querySelector('.prev');
-let next = document.querySelector('.next');
+let prev = document.querySelector('.fa-chevron-left');
+let next = document.querySelector('.fa-chevron-right');
 let slide = document.querySelector('.wrapper');
 let x = 0;
 
@@ -20,6 +20,7 @@ function slider() {
     } else {
         calculator(x++);
     }
+    console.log(x)
 }
 
 prev.addEventListener('click', function() {
@@ -31,7 +32,6 @@ prev.addEventListener('click', function() {
     clearInterval(timer)
     timer = setInterval(slider, 5000);
     timer;
-
 })
 
 next.addEventListener('click', function() {
@@ -43,9 +43,6 @@ next.addEventListener('click', function() {
     clearInterval(timer)
     timer = setInterval(slider, 5000);
     timer;
-
-
-
 })
 
 let timer = setInterval(slider, 5000);

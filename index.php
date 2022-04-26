@@ -1,9 +1,7 @@
 <?php
 require 'includes/header.php';
 
-
 $page = $_GET['page'] ?? 'accueil';
-
 
 switch ($page) {
     case 'accueil':
@@ -18,6 +16,5 @@ switch ($page) {
         require 'includes/error.php';
         break;
 }
-
 
 require 'includes/footer.php';

@@ -1,11 +1,11 @@
 <main>
     <section class="introduction">
-        <h1>Lorem ipsum dolor sit amet, consectetur</h1>
+        <h1>Bienvenue sur Nikke FR, Opérateur !</h1>
         <img class="image_home" src="images/home.png">
     </section>
 
     <section class="nouveaute">
-        <h1 class="titre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id dolor ut mi cursus ullamcorper dictum nec magna. </h1>
+        <h1 class="titre">Dernière actualitées en vogue</h1>
 
         <div class="prev"><a><i class="fa-solid fa-chevron-left"></i></a></div>
         <div class="slider">
@@ -37,13 +37,5 @@
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
 
-
-        </div>
-        <div class="patch">
-
-        </div>
-
+        <div class="patch"></div>
     </section>
-
-
-    </div>
