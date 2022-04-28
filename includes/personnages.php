@@ -21,7 +21,6 @@
                 </a>
             <?php
             }
-
             ?>
         </section>
     </article>
