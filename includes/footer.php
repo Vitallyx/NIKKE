@@ -6,8 +6,8 @@
                 <h1>EN DECOUVRIR PLUS</h1>
                 <ul>
                     <li><a href="?page=personnages" target="_blank">Personnages</a></li>
-                    <li><a>Guides</a></li>
-                    <li><a>Tier List</a></li>
+                    <li><a href="?page=guides" target="_blank">Guides</a></li>
+                    <li><a href="?page=tier_list" target="_blank">Tier List</a></li>
                 </ul>
             </div>
             <div class="community">

@@ -1,8 +1,6 @@
 <?php
 require 'includes/header.php';
 
-$page = $_GET['page'] ?? 'accueil';
-
 switch ($page) {
     case 'accueil':
         require 'includes/accueil.php';
@@ -10,6 +8,14 @@ switch ($page) {
 
     case 'personnages':
         require 'includes/personnages.php';
+        break;
+
+    case 'guides':
+        require 'includes/guides.php';
+        break;
+
+    case 'tier_list':
+        require 'includes/tier_list.php';
         break;
 
     default:

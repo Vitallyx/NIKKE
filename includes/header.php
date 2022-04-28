@@ -13,11 +13,23 @@
 
 <body>
 
+    <?php
+    $page = $_GET['page'] ?? 'accueil'; ?>
     <header>
         <ul>
-            <li><a href='?page=accueil'>Accueil</a></li>
-            <li><a href='?page=personnages'>Personnages</a></li>
-            <li><a href='#'>Guides</a></li>
-            <li><a href='#'>Tier List</a></li>
+            <li><a class="<?php if ($page == 'accueil') {
+                                echo ' active"';
+                            } ?>" href='?page=accueil'>Accueil</a></li>
+
+            <li><a class="<?php if ($page == 'personnages') {
+                                echo ' active"';
+                            } ?>" href='?page=personnages'>Personnages</a></li>
+
+            <li><a class="<?php if ($page == 'guides') {
+                                echo ' active"';
+                            } ?>" href='?page=guides'>Guides</a></li>
+            <li><a class="<?php if ($page == 'tier_list') {
+                                echo ' active"';
+                            } ?>" href='?page=tier_list'>Tier List</a></li>
         </ul>
     </header>
