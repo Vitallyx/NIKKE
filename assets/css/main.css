@@ -209,6 +209,18 @@ HOME INTRODUCTION
         animation: 2s welcome forwards;
     }
     
+    @media (max-width: 800px) {
+        .introduction h1 {
+            font-size: 0.8em;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .introduction h1 {
+            font-size: 0.5em;
+        }
+    }
+    
     @keyframes welcome {
         from {
             margin-right: 30%;
