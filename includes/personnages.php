@@ -1,6 +1,7 @@
 <main>
     <article class="character">
         <section class="search">Recherche</section>
+
         <section class="list-character">
 
             <?php
@@ -15,7 +16,6 @@
                 <a href="?page=<?= $oneCharacters['character_name']; ?>">
                     <div class=" <?= $oneCharacters['character_rarity']; ?>">
                         <img src=" <?= $oneCharacters['character_thumbnail']; ?>">
-
                         <h1><?= $oneCharacters['character_name']; ?></h1>
                     </div>
                 </a>

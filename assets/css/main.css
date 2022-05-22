@@ -340,7 +340,7 @@ CHARACTER
         width: 100%;
     }
     
-    .list-character div:hover {
+    .list-character a:hover {
         transform: scale(1.1);
     }
     
@@ -457,6 +457,10 @@ TIER LIST
         font-size: 1.5em;
     }
     
+    .rank a:hover {
+        transform: scale(1.1);
+    }
+    
     .ssTier h1 {
         background: #c94d4d;
     }
@@ -474,7 +478,7 @@ TIER LIST
     }
     
     .cTier h1 {
-        background: rgb(56, 61, 59);
+        background: #383d3b;
     }
     /* -------------------------------------------------------------------------------------- */
     /* -------------------- 
