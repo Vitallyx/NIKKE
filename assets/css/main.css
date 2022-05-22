@@ -11,6 +11,7 @@
     body {
         background: #0c0c0c;
         overflow-x: hidden;
+        width: 100%;
     }
     
     header {
@@ -29,6 +30,7 @@
     header ul {
         display: flex;
         justify-content: center;
+        gap: 20px;
     }
     
     header ul li {
@@ -40,8 +42,6 @@
         align-self: center;
         text-decoration: none;
         color: #8c8c8e;
-        padding: 20px;
-        border-radius: 20px;
         font-size: 1.5em;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -485,11 +485,10 @@ TIER LIST
 FOOTER
 */
     
-    footer {
+    #footer {
         display: flex;
         align-items: center;
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
-        width: 100%;
         background: #1f1f1f;
         color: #8c8c8e;
     }
@@ -497,7 +496,6 @@ FOOTER
     footer .wrapper {
         display: flex;
         flex-wrap: wrap;
-        height: auto;
         width: 100%;
         padding: 0 10% 0;
     }
@@ -505,7 +503,6 @@ FOOTER
     @media (max-width: 800px) {
         footer .wrapper {
             margin: 0;
-            padding: 10px;
         }
     }
     
