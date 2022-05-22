@@ -4,6 +4,11 @@ window.addEventListener('scroll', function() {
     header.classList.toggle("sticky", this.window.scrollY > 0);
 })
 
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+
+}
+
 let prev = document.querySelector('.fa-chevron-left');
 let next = document.querySelector('.fa-chevron-right');
 let slide = document.querySelector('.wrapper');
