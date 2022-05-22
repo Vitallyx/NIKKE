@@ -91,6 +91,7 @@
         align-items: center;
         justify-content: flex-start;
         height: auto;
+        width: 100%;
         background-color: #0c0c0c;
     }
     
@@ -251,6 +252,7 @@ NOUVEAUTE
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
+        margin: 0 0 50px;
     }
     
     .nouveaute .titre {
@@ -265,9 +267,12 @@ NOUVEAUTE
     }
     
     .nouveaute .slider {
-        margin: 50px 0 100px;
         flex: 1;
         overflow: hidden;
+    }
+    
+    .nouveaute .titre {
+        margin-bottom: 50px;
     }
     
     .nouveaute .wrapper {
