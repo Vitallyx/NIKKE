@@ -1,14 +1,21 @@
+///////////////////////////////////
+// Header
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', function() {
     header.classList.toggle("sticky", this.window.scrollY > 0);
 })
 
+
+///////////////////////////////////
+// Header Mobile
+
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
-
 }
 
+///////////////////////////////////
+// Slider
 let prev = document.querySelector('.fa-chevron-left');
 let next = document.querySelector('.fa-chevron-right');
 let slide = document.querySelector('.wrapper');
@@ -25,7 +32,6 @@ function slider() {
     } else {
         calculator(x++);
     }
-    console.log(x)
 }
 
 prev.addEventListener('click', function() {
@@ -52,3 +58,5 @@ next.addEventListener('click', function() {
 
 let timer = setInterval(slider, 5000);
 timer;
+
+///////////////////////////////////

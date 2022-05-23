@@ -202,6 +202,7 @@ HOME INTRODUCTION
     .introduction h1 {
         position: absolute;
         align-self: center;
+        text-align: center;
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
         font-size: 1.5em;
         text-transform: uppercase;
@@ -260,7 +261,7 @@ NOUVEAUTE
         width: 100%;
         text-align: center;
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
-        font-size: 1.5em;
+        font-size: 1em;
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #fff;
@@ -479,9 +480,10 @@ GUIDE
     }
     
     .guides h1 {
-        font-size: 4em;
+        font-size: 2em;
         color: #fff;
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
+        text-align: center;
     }
     /* -------------------------------------------------------------------------------------- */
     /* -------------------- 
@@ -500,7 +502,6 @@ TIER LIST
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin: 50px 10% 50px;
     }
     
     .rank div {
