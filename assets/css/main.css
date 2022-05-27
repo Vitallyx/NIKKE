@@ -430,20 +430,6 @@ CHARACTER
         background: #1f1f1f;
     }
     
-    @media (max-width: 600px) {
-        #list-character div {
-            min-width: 75px;
-            max-width: 75px;
-        }
-    }
-    
-    @media (max-width: 400px) {
-        #list-character div {
-            min-width: 50px;
-            max-width: 50px;
-        }
-    }
-    
     #list-character a {
         text-decoration: none;
     }
@@ -461,21 +447,42 @@ CHARACTER
         border: 4px solid rgb(80, 88, 160);
     }
     
+    @media (max-width: 400px) {
+        .super_super_rare {
+            border: 2px solid;
+            border-image: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1;
+        }
+        .super_rare {
+            border: 2px solid rgb(147, 75, 168);
+        }
+        .rare {
+            border: 2px solid rgb(80, 88, 160);
+        }
+    }
+    
     #list-character div h1 {
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
         font-size: 1em;
         color: #b8b8b8;
     }
     
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         #list-character div h1 {
             font-size: 0.8em;
+        }
+        #list-character div {
+            min-width: 75px;
+            max-width: 75px;
         }
     }
     
     @media (max-width: 400px) {
         #list-character div h1 {
             font-size: 0.5em;
+        }
+        #list-character div {
+            min-width: 50px;
+            max-width: 50px;
         }
     }
     
@@ -557,6 +564,30 @@ TIER LIST
         width: 100px;
         color: #fff;
         font-size: 1.5em;
+    }
+    
+    @media (max-width: 400px) {
+        .rank h1 {
+            border: 2px solid transparent;
+            font-size: 1em;
+            height: 50px;
+            width: 50px;
+        }
+        .rank div img {
+            height: 50px;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        .rank h1 {
+            border: 2px solid transparent;
+            font-size: 1.2em;
+            height: 75px;
+            width: 75px;
+        }
+        .rank div img {
+            height: 75px;
+        }
     }
     
     .rank a:hover {
