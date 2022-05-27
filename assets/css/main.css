@@ -567,6 +567,9 @@ TIER LIST
     }
     
     @media (max-width: 400px) {
+        .tier_list .rank {
+            gap: 5px;
+        }
         .rank h1 {
             border: 2px solid transparent;
             font-size: 1em;
@@ -575,6 +578,9 @@ TIER LIST
         }
         .rank div img {
             height: 50px;
+        }
+        .rank div {
+            gap: 5px;
         }
     }
     
