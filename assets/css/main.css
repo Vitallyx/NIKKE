@@ -447,7 +447,7 @@ CHARACTER
         border: 4px solid rgb(80, 88, 160);
     }
     
-    @media (max-width: 400px) {
+    @media (max-width: 800px) {
         .super_super_rare {
             border: 2px solid;
             border-image: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82) 1;
@@ -585,6 +585,9 @@ TIER LIST
     }
     
     @media (max-width: 800px) {
+        .tier_list .rank {
+            gap: 5px;
+        }
         .rank h1 {
             border: 2px solid transparent;
             font-size: 1.2em;
@@ -593,6 +596,9 @@ TIER LIST
         }
         .rank div img {
             height: 75px;
+        }
+        .rank div {
+            gap: 5px;
         }
     }
     
