@@ -430,6 +430,20 @@ CHARACTER
         background: #1f1f1f;
     }
     
+    @media (max-width: 600px) {
+        #list-character div {
+            min-width: 75px;
+            max-width: 75px;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        #list-character div {
+            min-width: 50px;
+            max-width: 50px;
+        }
+    }
+    
     #list-character a {
         text-decoration: none;
     }
@@ -451,6 +465,18 @@ CHARACTER
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
         font-size: 1em;
         color: #b8b8b8;
+    }
+    
+    @media (max-width: 600px) {
+        #list-character div h1 {
+            font-size: 0.8em;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        #list-character div h1 {
+            font-size: 0.5em;
+        }
     }
     
     #list-character div img {
