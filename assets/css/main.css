@@ -400,14 +400,14 @@ ACTUALITE
 CHARACTER
 */
     
-    .character {
+    .characters {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: 0 10% 0;
     }
     
-    .list-character {
+    #list-character {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -416,11 +416,11 @@ CHARACTER
         width: 100%;
     }
     
-    .list-character a:hover {
+    #list-character a:hover {
         transform: scale(1.1);
     }
     
-    .list-character div {
+    #list-character div {
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -430,7 +430,7 @@ CHARACTER
         background: #1f1f1f;
     }
     
-    .list-character a {
+    #list-character a {
         text-decoration: none;
     }
     
@@ -447,13 +447,13 @@ CHARACTER
         border: 4px solid rgb(80, 88, 160);
     }
     
-    .list-character div h1 {
+    #list-character div h1 {
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
         font-size: 1em;
         color: #b8b8b8;
     }
     
-    .list-character div img {
+    #list-character div img {
         max-width: 100%;
         max-height: 100%;
     }
@@ -461,7 +461,7 @@ CHARACTER
 SEARCH
 */
     
-    .character .search {
+    .characters .search {
         height: 50px;
         width: 100%;
         margin: 0 0 20px;
@@ -495,7 +495,7 @@ TIER LIST
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        width: 100%;
+        padding: 0 10% 50px;
     }
     
     .tier_list .rank {
@@ -537,23 +537,23 @@ TIER LIST
         transform: scale(1.1);
     }
     
-    .ssTier h1 {
+    #ssTier h1 {
         background: #c94d4d;
     }
     
-    .sTier h1 {
+    #sTier h1 {
         background: #af9240;
     }
     
-    .aTier h1 {
+    #aTier h1 {
         background: #aaaa4b;
     }
     
-    .bTier h1 {
+    #bTier h1 {
         background: #6fba82;
     }
     
-    .cTier h1 {
+    #cTier h1 {
         background: #383d3b;
     }
     /* -------------------------------------------------------------------------------------- */
