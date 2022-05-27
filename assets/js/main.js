@@ -21,7 +21,7 @@ function toggleMobileMenu(menu) {
 const main = document.getElementById('list-character');
 
 async function fetchData() {
-    const response = await fetch('../characters.json');
+    const response = await fetch('characters.json');
     const data = await response.json();
 
     data.map((val) => {
