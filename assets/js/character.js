@@ -1,3 +1,5 @@
+const title = document.querySelector('title')
+
 function getQueryVariable(variable) {
     let query = window.location.search.substring(1);
     let vars = query.split("?");
@@ -22,6 +24,8 @@ async function fetchData() {
 
     test.innerHTML = "salut" + " " + data[id].character_name
     console.log(data[id].character_name)
+
+    title.textContent = "NIKKE: " + data[id].character_name
 
 }
 fetchData();
