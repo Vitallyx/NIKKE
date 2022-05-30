@@ -414,10 +414,7 @@ CHARACTER
         margin: 0 0 50px;
         gap: 15px;
         width: 100%;
-    }
-    
-    #list-character a:hover {
-        transform: scale(1.1);
+        opacity: 1;
     }
     
     #list-character div {
@@ -425,47 +422,18 @@ CHARACTER
         align-items: center;
         justify-content: flex-end;
         flex-direction: column;
+        opacity: 0.6;
         min-width: 100px;
         max-width: 100px;
         background: #1f1f1f;
     }
     
+    #list-character div:hover {
+        opacity: 1;
+    }
+    
     #list-character a {
         text-decoration: none;
-    }
-    
-    .information {
-        display: none;
-        position: absolute;
-        margin: 0 10% 0;
-        width: 90%;
-    }
-    
-    .show {
-        display: flex;
-        flex-wrap: wrap;
-        height: 90vh;
-        padding: 10px;
-        border-radius: 10px;
-        border: 1px solid black;
-        background: #3b3b3b;
-    }
-    
-    .fa-times {
-        display: flex;
-        color: #8c8c8e;
-    }
-    
-    .thumbnail {
-        height: 150px;
-        min-width: 150px;
-        max-width: 150px;
-    }
-    
-    .description {
-        width: 100%;
-        color: #fff;
-        font-family: "Oswald", 'Trebuchet MS', sans-serif;
     }
     
     .super_super_rare {
@@ -496,6 +464,7 @@ CHARACTER
     
     #list-character div h1 {
         font-family: "Oswald", 'Trebuchet MS', sans-serif;
+        text-align: center;
         font-size: 1em;
         color: #b8b8b8;
     }
