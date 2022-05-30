@@ -541,6 +541,7 @@ TIER LIST
         gap: 10px;
     }
     
+    .rank a,
     .rank div {
         display: flex;
         align-items: center;
@@ -549,7 +550,7 @@ TIER LIST
         background: #1f1f1f;
     }
     
-    .rank div img {
+    .rank a img {
         height: 100px;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -604,10 +605,6 @@ TIER LIST
         .rank div {
             gap: 5px;
         }
-    }
-    
-    .rank a:hover {
-        transform: scale(1.1);
     }
     
     #ssTier h1 {
