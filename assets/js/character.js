@@ -48,7 +48,7 @@ async function fetchData() {
     img_chr.src = db[id].character_images;
 
     if (db[id].character_rarity == 0) {
-        rarity.src = "./images/ssr.webp   "
+        rarity.src = "../images/ssr.webp"
 
     }
 
