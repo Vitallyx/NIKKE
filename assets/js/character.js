@@ -45,10 +45,10 @@ async function fetchData() {
     story.innerHTML = db[id].character_story;
     cv.innerHTML = "CV : " + db[id].character_cv;
     name.innerHTML = db[id].character_name;
-    img_chr.src = "./" + db[id].character_images;
+    img_chr.src = db[id].character_images;
 
     if (db[id].character_rarity == 0) {
-        rarity.src = "./images/ssr.webp"
+        rarity.src = "images/ssr.webp"
 
     }
 
