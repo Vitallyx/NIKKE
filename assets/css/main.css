@@ -632,45 +632,56 @@ CHARACTER*/
                 
                 .details {
                     display: flex;
+                    flex-direction: column;
                     flex-wrap: wrap;
-                    min-height: 100vh;
                 }
                 
                 .details .galerie {
                     display: flex;
-                    justify-content: center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    margin: 2vh 0 0;
+                    flex-direction: column;
+                    margin: 10px 0 0;
                     width: 100%;
                 }
                 
                 .details .galerie .display {
-                    position: absolute;
                     display: flex;
-                    flex-wrap: wrap;
                     flex-direction: column;
-                    align-self: flex-end;
-                    margin: 0 0 30vh;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    margin: 0 auto 0;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                     border-radius: 5px;
-                    width: 50%;
+                    width: 60%;
                     background: #f8fcfd;
+                }
+                
+                .details .galerie .img {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                
+                .details .galerie .img_chr {
+                    display: flex;
+                    min-width: 200px;
+                    max-width: 700px;
+                    margin-bottom: -20vh;
+                }
+                
+                .details .galerie .display .color {
+                    position: absolute;
+                    height: 5px;
+                    width: 60%;
+                    border-radius: 5px 5px 0 0;
                 }
                 
                 @media (max-width: 800px) {
                     .details .galerie .display {
                         width: 80%;
-                        margin: 0;
                     }
-                }
-                
-                .details .galerie .display .color {
-                    position: absolute;
-                    height: 100%;
-                    width: 5px;
-                    flex: 1;
-                    border-radius: 5px 0 0 5px;
+                    .details .galerie .display .color {
+                        width: 80%;
+                    }
                 }
                 
                 .details .galerie .cv {
@@ -688,14 +699,14 @@ CHARACTER*/
                     margin: 10px 10px 0;
                 }
                 
-                .details .galerie .part {
+                .details .galerie .information {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                     margin: 0 10px 0;
                 }
                 
                 @media (max-width: 800px) {
-                    .details .galerie .part {
+                    .details .galerie .information {
                         grid-template-columns: repeat(1, 1fr);
                     }
                 }
@@ -729,12 +740,12 @@ CHARACTER*/
                     color: #fff;
                 }
                 
-                .details .smt {
+                .details .part2 {
                     display: flex;
                     align-items: center;
                 }
                 
-                .details .smt p {
+                .details .part2 p {
                     text-transform: uppercase;
                     font-weight: 700;
                     width: 100%;
@@ -747,14 +758,6 @@ CHARACTER*/
                     padding: 10px;
                     background: #dcdde2;
                     color: #000000;
-                }
-                
-                .details .galerie .img_chr {
-                    display: flex;
-                    min-width: 200px;
-                    max-width: 700px;
-                    background-size: contain;
-                    object-fit: contain;
                 }
                 
                 .skills {
