@@ -209,7 +209,7 @@
     {
         "character_id": 17,
         "character_name": "Guillotine",
-        "character_images": "images/front/Guillotine.webp",
+        "character_images": "./images/front/Guillotine.webp",
         "character_color": "#b13d3f",
         "character_rarity": "0",
         "character_weapon": "Minigun",
