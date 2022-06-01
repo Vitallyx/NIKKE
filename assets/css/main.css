@@ -759,7 +759,6 @@ CHARACTER*/
                 
                 .skills {
                     height: 500px;
-                    width: ;
                 }
                 /* -------------------------------------------------------------------------------------- */
                 /* -------------------- 
@@ -801,7 +800,7 @@ FOOTER
                 
                 footer .other h1 {
                     margin: 50px 0 5px;
-                    font-size: 1.5em;
+                    font-size: 1.2em;
                     text-transform: uppercase;
                     letter-spacing: 2px;
                 }
