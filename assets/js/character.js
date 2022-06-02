@@ -34,6 +34,7 @@ async function fetchData() {
     const name = document.querySelector('.name');
     const cv = document.querySelector('.cv');
     const story = document.querySelector('.story');
+    const weapon = document.querySelector('.weapon');
     const img_chr = document.querySelector('.img_chr');
 
     color.style.background = db[id].character_color;
@@ -43,13 +44,19 @@ async function fetchData() {
     squad_chr.innerHTML = db[id].character_squad;
     faction_chr.innerHTML = db[id].character_faction;
     story.innerHTML = db[id].character_story;
+    weapon.innerHTML = db[id].character_weapon;
     cv.innerHTML = "CV : " + db[id].character_cv;
     name.innerHTML = db[id].character_name;
     img_chr.src = db[id].character_images;
 
+
+
     if (db[id].character_rarity == 0) {
         rarity.src = "images/ssr.webp"
-
+    } else if (db[id].character_rarity == 1) {
+        rarity.src = "images/sr.webp"
+    } else if (db[id].character_rarity == 21) {
+        rarity.src = "images/r.webp"
     }
 
     title.textContent = "NIKKE: " + data[id].character_name;
