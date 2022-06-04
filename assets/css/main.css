@@ -725,6 +725,7 @@ CHARACTER*/
                 }
                 
                 .details .galerie .rarity {
+                    margin: 0 10px 0;
                     height: 50px;
                 }
                 

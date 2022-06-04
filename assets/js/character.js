@@ -55,7 +55,7 @@ async function fetchData() {
         rarity.src = "images/ssr.webp"
     } else if (db[id].character_rarity == 1) {
         rarity.src = "images/sr.webp"
-    } else if (db[id].character_rarity == 21) {
+    } else if (db[id].character_rarity == 2) {
         rarity.src = "images/r.webp"
     }
 
