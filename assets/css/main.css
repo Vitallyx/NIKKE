@@ -626,6 +626,10 @@ TIER LIST
                 #cTier h1 {
                     background: #383d3b;
                 }
+                
+                .rank a:hover {
+                    transform: scale(1.05);
+                }
                 /* -------------------------------------------------------------------------------------- */
                 /* -------------------- 
 CHARACTER*/
@@ -726,7 +730,7 @@ CHARACTER*/
                 
                 .details .galerie .rarity {
                     margin: 0 10px 0;
-                    height: 50px;
+                    height: 30px;
                 }
                 
                 .details .galerie .affiliation {
