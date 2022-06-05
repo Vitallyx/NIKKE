@@ -638,7 +638,7 @@ CHARACTER*/
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
-                    background-image: url("images/bg.webp");
+                    background-image: url("/images/bg.webp");
                 }
                 
                 .details .galerie {
