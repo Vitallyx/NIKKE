@@ -638,6 +638,7 @@ CHARACTER*/
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
+                    background-image: url("/images/test.png");
                 }
                 
                 .details .galerie {
@@ -652,7 +653,7 @@ CHARACTER*/
                     flex-direction: column;
                     justify-content: flex-start;
                     flex-wrap: wrap;
-                    margin: 0 auto 0;
+                    margin: 0 auto 20px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                     border-radius: 5px;
                     width: 60%;
@@ -671,20 +672,15 @@ CHARACTER*/
                     max-width: 700px;
                     max-height: 700px;
                     margin-bottom: -20vh;
-                }
-                
-                .details .galerie .display .color {
-                    position: absolute;
-                    height: 5px;
-                    width: 60%;
-                    border-radius: 5px 5px 0 0;
+                    pointer-events: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
                 }
                 
                 @media (max-width: 800px) {
                     .details .galerie .display {
-                        width: 80%;
-                    }
-                    .details .galerie .display .color {
                         width: 80%;
                     }
                 }
@@ -774,7 +770,66 @@ CHARACTER*/
                 }
                 
                 .skills {
-                    height: 500px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    margin: 0 10px 20px;
+                    font-family: "Oswald", 'Trebuchet MS', sans-serif;
+                }
+                
+                .skills_info {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 0 20px;
+                }
+                
+                .skills h1 {
+                    font-size: 1.5em;
+                }
+                
+                .skills h2 {
+                    font-size: 1em;
+                    color: #8c8c8e;
+                }
+                
+                .skills .auto,
+                .skills .skill1,
+                .skills .skill2 {
+                    padding: 10px;
+                    border-radius: 5px;
+                    width: 30%;
+                    background: #1f1f1f;
+                    color: #a1a1aa;
+                }
+                
+                .skills .self {
+                    color: #e48f20;
+                }
+                
+                .skills .bonus {
+                    color: #20bde4;
+                }
+                
+                .skills .enemy {
+                    color: #d83823;
+                }
+                
+                .skills .rng {
+                    color: #ba23d8;
+                }
+                
+                .skills .allies {
+                    color: #318a1a;
+                }
+                
+                @media (max-width: 800px) {
+                    .skills .auto,
+                    .skills .skill1,
+                    .skills .skill2 {
+                        width: 80%;
+                    }
                 }
                 /* -------------------------------------------------------------------------------------- */
                 /* -------------------- 
