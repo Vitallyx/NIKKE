@@ -59,6 +59,21 @@ async function fetchData() {
         rarity.src = "images/r.webp"
     }
 
+    const auto = document.querySelector('.auto');
+    auto.style.borderLeft = "5px solid" + db[id].character_color;
+
+
+    const auto_title = document.querySelector('.auto_title');
+    const auto_ammmo = document.querySelector('.auto_ammo');
+    const auto_reload = document.querySelector('.auto_reload');
+    const auto_desc = document.querySelector('.auto_desc');
+
+    auto_title.innerHTML = db[id].character_auto_title;
+    auto_title.style.color = db[id].character_color;
+    auto_ammmo.innerHTML = "Munitions : " + db[id].character_auto_ammo;
+    auto_reload.innerHTML = "Reload Time : " + db[id].character_auto_reload;
+    auto_desc.innerHTML = db[id].character_auto;
+
     const skill1 = document.querySelector('.skill1');
     skill1.style.borderLeft = "5px solid" + db[id].character_color;
 
