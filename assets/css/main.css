@@ -729,6 +729,15 @@ CHARACTER*/
                     height: 30px;
                 }
                 
+                .details .galerie .role {
+                    margin-left: 10px;
+                }
+                
+                .details .galerie .role,
+                .details .galerie .step {
+                    height: 50px;
+                }
+                
                 .details .galerie .affiliation {
                     background: #1f1f1f;
                     color: #fff;
@@ -781,15 +790,19 @@ CHARACTER*/
                 
                 .skills_info {
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: space-between;
                     margin: 0 0 20px;
                 }
                 
-                .skills h1 {
+                .skills h1,
+                .ultimate h1 {
                     font-size: 1.5em;
+                    margin-right: 50px;
                 }
                 
-                .skills h2 {
+                .skills h2,
+                .ultimate h2 {
                     font-size: 1em;
                     color: #8c8c8e;
                 }
@@ -800,27 +813,43 @@ CHARACTER*/
                     padding: 10px;
                     border-radius: 5px;
                     width: 30%;
+                    flex: 1;
                     background: #1f1f1f;
                     color: #a1a1aa;
                 }
                 
-                .skills .self {
+                .ultimate {
+                    display: flex;
+                    justify-content: center;
+                    font-family: "Oswald", 'Trebuchet MS', sans-serif;
+                    width: 100%;
+                }
+                
+                .ultimate .skill_ultimate {
+                    padding: 10px;
+                    width: 80%;
+                    margin: 0 10px 50px;
+                    background: #1f1f1f;
+                    color: #a1a1aa;
+                }
+                
+                .self {
                     color: #e48f20;
                 }
                 
-                .skills .bonus {
+                .bonus {
                     color: #20bde4;
                 }
                 
-                .skills .enemy {
+                .enemy {
                     color: #d83823;
                 }
                 
-                .skills .rng {
+                .rng {
                     color: #ba23d8;
                 }
                 
-                .skills .allies {
+                .allies {
                     color: #318a1a;
                 }
                 
@@ -828,7 +857,10 @@ CHARACTER*/
                     .skills .auto,
                     .skills .skill1,
                     .skills .skill2 {
-                        width: 80%;
+                        min-width: 80%;
+                    }
+                    .ultimate .skill_ultimate {
+                        flex: 1;
                     }
                 }
                 /* -------------------------------------------------------------------------------------- */
