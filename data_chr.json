@@ -167,7 +167,8 @@
         "character_skill2": "When attacked :<br>There is a <span class='rng'>10% </span> chance of <span class='self'>Gain </span> Strawberry Candy : <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec).<br><br>While in Full Burst :<br>After firing 50 rounds <span class='self'>Gain </span> Strawberry Candy : <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec).<br><br>When Strawberry Candy is fully stacked <span class='allies'>Apply on all allies </span><span class='bonus'>reload 90 % of ammunition</span> ",
         "character_ultimate_title": "Strawberry Shock",
         "character_ultimate_cd": "Cooldown : 30.00s",
-        "character_ultimate": "When the spell is cast<br>Metal Damage <span class='enemy'>350%</span> on <span class='enemy'>5 enemy</span> with the highest ATK.<br>To one <span class='enemy'>target</span> : ATK -10% for 10 sec.<br><br><span class='self'>Gain </span> Strawberry Candy: <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec) Stack Up <span class='bonus'>4</span>."
+        "character_ultimate": "When the spell is cast<br>Metal Damage <span class='enemy'>350%</span> on <span class='enemy'>5 enemy</span> with the highest ATK.<br>To one <span class='enemy'>target</span> : ATK -10% for 10 sec.<br><br><span class='self'>Gain </span> Strawberry Candy: <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec) Stack Up <span class='bonus'>4</span>.",
+        "character_video": "video/Diesel.mp4"
     },
     {
         "character_id": 13,

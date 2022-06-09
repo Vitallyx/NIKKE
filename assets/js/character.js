@@ -126,6 +126,9 @@ async function fetchData() {
     ultimate_title.style.color = db[id].character_color;
     ultimate_desc.innerHTML = db[id].character_ultimate;
 
+    const video = document.querySelector('.video');
+    video.src = db[id].character_video;
+
 
 
 }
