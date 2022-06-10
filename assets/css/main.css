@@ -638,15 +638,15 @@ CHARACTER*/
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
-                    background: black;
-                    background-repeat: no-repeat;
-                    background-image: url("https://i.imgur.com/clOGIs8.png");
+                    background: #0c0c0c;
                 }
                 
                 .details .galerie {
                     display: flex;
                     flex-direction: column;
                     margin: 10px 0 0;
+                    background-repeat: no-repeat;
+                    background-image: url("https://i.imgur.com/clOGIs8.png");
                 }
                 
                 .details .galerie .display {
@@ -654,7 +654,7 @@ CHARACTER*/
                     flex-direction: column;
                     justify-content: flex-start;
                     flex-wrap: wrap;
-                    margin: 0 auto 20px;
+                    margin: 0 auto 50px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                     border-radius: 5px;
                     width: 60%;
@@ -789,6 +789,16 @@ CHARACTER*/
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                 }
                 
+                .skills::after {
+                    content: "";
+                    position: absolute;
+                    background: linear-gradient(to top, #0c0c0c, transparent);
+                    width: 100%;
+                    margin-top: -50px;
+                    height: 50px;
+                    z-index: 1000;
+                }
+                
                 .skills_info {
                     display: flex;
                     flex-wrap: wrap;
@@ -861,6 +871,19 @@ CHARACTER*/
                 
                 .allies {
                     color: #318a1a;
+                }
+                
+                .cover {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 0 0 20px;
+                }
+                
+                .culture {
+                    height: 500px;
+                    width: 500px;
+                    background: red;
                 }
                 
                 @media (max-width: 800px) {
