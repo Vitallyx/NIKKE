@@ -115,7 +115,7 @@ async function fetchData() {
     skill2_desc.innerHTML = db[id].character_skill2;
 
     const ultimate = document.querySelector('.skill_ultimate');
-    ultimate.style.borderBottom = "5px solid" + db[id].character_color;
+    ultimate.style.borderLeft = "5px solid" + db[id].character_color;
 
     const ultimate_title = document.querySelector('.ultimate_title');
     const ultimate_cd = document.querySelector('.ultimate_cd');
@@ -129,7 +129,11 @@ async function fetchData() {
     const video = document.querySelector('.video');
     video.src = db[id].character_video;
 
+    const aim = document.querySelector('.aim');
+    const cover = document.querySelector('.cover');
 
+    aim.src = db[id].character_aim;
+    cover.src = db[id].character_cover;
 
 }
 fetchData();
