@@ -638,13 +638,13 @@ CHARACTER*/
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
-                    background-image: url("https://i.imgur.com/clOGIs8.png");
                 }
                 
                 .details .galerie {
                     display: flex;
                     flex-direction: column;
                     margin: 10px 0 0;
+                    background-image: url("https://i.imgur.com/clOGIs8.png");
                     width: 100%;
                 }
                 
@@ -653,7 +653,7 @@ CHARACTER*/
                     flex-direction: column;
                     justify-content: flex-start;
                     flex-wrap: wrap;
-                    margin: 0 auto 20px;
+                    margin: 0 auto 100px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                     border-radius: 5px;
                     width: 60%;
@@ -786,6 +786,16 @@ CHARACTER*/
                     gap: 10px;
                     margin: 0 10px 20px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
+                }
+                
+                .skills::after {
+                    content: "";
+                    position: absolute;
+                    background: linear-gradient(to top, #0c0c0c, transparent);
+                    width: 100%;
+                    margin-top: -100px;
+                    height: 100px;
+                    z-index: 1000;
                 }
                 
                 .skills_info {
