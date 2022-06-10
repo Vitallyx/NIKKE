@@ -146,6 +146,8 @@
         "character_id": 12,
         "character_name": "Diesel",
         "character_images": "images/front/Diesel.webp",
+        "character_aim": "images/aim/DieselA.webp",
+        "character_cover": "images/cover/DieselC.webp",
         "character_color": "#6ea3e3",
         "character_rarity": 0,
         "character_role": 1,
