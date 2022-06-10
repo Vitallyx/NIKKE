@@ -654,7 +654,7 @@ CHARACTER*/
                     flex-direction: column;
                     justify-content: flex-start;
                     flex-wrap: wrap;
-                    margin: 0 auto 50px;
+                    margin: 0 auto 100px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                     border-radius: 5px;
                     width: 60%;
@@ -785,7 +785,7 @@ CHARACTER*/
                     justify-content: center;
                     flex-wrap: wrap;
                     gap: 10px;
-                    margin: 0 5vh 20px;
+                    margin: 0 20px 20px;
                     font-family: "Oswald", 'Trebuchet MS', sans-serif;
                 }
                 
@@ -794,8 +794,8 @@ CHARACTER*/
                     position: absolute;
                     background: linear-gradient(to top, #0c0c0c, transparent);
                     width: 100%;
-                    margin-top: -50px;
-                    height: 50px;
+                    margin-top: -100px;
+                    height: 100px;
                     z-index: 1000;
                 }
                 
