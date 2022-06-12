@@ -729,15 +729,6 @@ CHARACTER*/
                     height: 30px;
                 }
                 
-                .details .galerie .role {
-                    margin-left: 10px;
-                }
-                
-                .details .galerie .role,
-                .details .galerie .step {
-                    height: 50px;
-                }
-                
                 .details .galerie .affiliation {
                     background: #1f1f1f;
                     color: #fff;
@@ -837,6 +828,8 @@ CHARACTER*/
                 
                 .ultimate .skill_ultimate {
                     padding: 10px;
+                    display: flex;
+                    flex-direction: column;
                     width: 60%;
                     margin: 0 10px 50px;
                     border-radius: 5px;
@@ -852,7 +845,14 @@ CHARACTER*/
                     height: 500px;
                 }
                 
-                .cover {
+                .ultimate .step {
+                    margin: 5px 0 0;
+                    align-self: center;
+                    height: 50px;
+                    width: 50px;
+                }
+                
+                .coveraim {
                     display: flex;
                     margin: 0 10px 50px;
                 }
@@ -860,6 +860,7 @@ CHARACTER*/
                 .culture {
                     display: flex;
                     justify-content: center;
+                    align-items: center;
                     flex-wrap: wrap;
                     margin: 0 auto;
                     background: #1f1f1f;
@@ -868,7 +869,10 @@ CHARACTER*/
                 }
                 
                 .culture img {
-                    object-fit: contain;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
                 }
                 
                 .self {

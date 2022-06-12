@@ -16,13 +16,11 @@ let id = getQueryVariable("id")
 
 async function fetchData() {
 
-    const response = await fetch('./characters.json');
-    const data = await response.json();
 
     const response_db = await fetch('./data_chr.json');
     const db = await response_db.json();
 
-    title.textContent = "NIKKE: " + data[id].character_name;
+    title.textContent = "NIKKE: " + db[id].character_name;
 
     const display = document.querySelector('.display');
 
@@ -33,7 +31,6 @@ async function fetchData() {
 
     const rarity = document.querySelector('.rarity');
     const step = document.querySelector('.step');
-    const role = document.querySelector('.role');
     const name = document.querySelector('.name');
     const cv = document.querySelector('.cv');
     const story = document.querySelector('.story');
@@ -60,12 +57,6 @@ async function fetchData() {
     } else if (db[id].character_step == 3) {
         step.src = "images/step3.webp"
     }
-
-    if (db[id].character_role == 1) {
-        role.src = "images/defender.webp"
-    }
-
-
 
     if (db[id].character_rarity == 0) {
         rarity.src = "images/ssr.webp"
