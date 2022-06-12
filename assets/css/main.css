@@ -643,7 +643,6 @@ CHARACTER*/
                 .details .galerie {
                     display: flex;
                     flex-direction: column;
-                    margin: 20px 0 0;
                     background-image: url("https://i.imgur.com/clOGIs8.png");
                     width: 100%;
                 }
@@ -663,6 +662,7 @@ CHARACTER*/
                 .details .galerie .img {
                     display: flex;
                     justify-content: center;
+                    margin: 20px 0 0;
                     width: 100%;
                 }
                 
