@@ -144,7 +144,7 @@
         "character_auto": "",
         "character_skill1_title": "Decrescendo",
         "character_skill1_cd": "",
-        "character_skill1": "When shooting :<br>There is a <span class='rng'>10%</span> chance of stacking up Dissonance on <span class='enemy'>enemy hit</span>.<br>Dissonance: <span class='enemy'>-DEF 1%</span> Max Stack: 10 for 5 sec.<br><br><span class='self'>Gain </span><span class='bonus'>Critical Rate +10%</span> for 5 sec.<br><span class='enemy'><span class='self'>Gain </span>Spread -10%</span> for 5 sec.",
+        "character_skill1": "When shooting :<br>There is a <span class='rng'>10%</span> chance of stacking up Dissonance on <span class='enemy'>enemy hit</span>.<br>Dissonance: <span class='enemy'>DEF -1%</span> Max Stack: 10 for 5 sec.<br><br><span class='self'>Gain </span><span class='bonus'>Critical Rate +10%</span> for 5 sec.<br><span class='enemy'><span class='self'>Gain </span>Spread -10%</span> for 5 sec.",
         "character_skill2_title": "Crescendo",
         "character_skill2_cd": "",
         "character_skill2": "<span class='self'>Gain </span><span class='bonus'>Burst ATK +2%</span> Max Stack 5 for 10 sec.<br><br><span class='self'>Gain </span><span class='bonus'>Organic Damage +10% </span> for 5 sec.<br><span class='self'>Gain </span><span class='bonus'>Critical Damage +50% </span> for 5 sec.",
