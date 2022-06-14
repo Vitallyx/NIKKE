@@ -724,6 +724,13 @@ CHARACTER*/
                     font-weight: 700;
                 }
                 
+                .details .galerie .element {
+                    margin: 0 10px 0;
+                    color: #8c8c8e;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                }
+                
                 .details .galerie .rarity {
                     margin: 0 10px 0;
                     height: 30px;

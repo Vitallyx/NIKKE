@@ -35,6 +35,7 @@ async function fetchData() {
     const cv = document.querySelector('.cv');
     const story = document.querySelector('.story');
     const weapon = document.querySelector('.weapon');
+    const element = document.querySelector('.element');
     const img_chr = document.querySelector('.img_chr');
 
     display.style.borderTop = "5px solid" + db[id].character_color;
@@ -46,6 +47,7 @@ async function fetchData() {
 
     story.innerHTML = db[id].character_story;
     weapon.innerHTML = db[id].character_weapon;
+    element.innerHTML = db[id].character_element;
     cv.innerHTML = "CV : " + db[id].character_cv;
     name.innerHTML = db[id].character_name;
     img_chr.src = db[id].character_images;
