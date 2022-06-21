@@ -411,7 +411,7 @@ CHARACTER
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
-                    margin: 0 0 50px;
+                    margin: 0 0 150px;
                     gap: 15px;
                     width: 100%;
                     opacity: 1;
@@ -495,17 +495,7 @@ CHARACTER
                     max-height: 100%;
                 }
                 /* -------------------- 
-SEARCH
-*/
-                
-                .characters .search {
-                    height: 50px;
-                    width: 100%;
-                    margin: 0 0 20px;
-                    background: #1f1f1f;
-                }
-                /* -------------------------------------------------------------------------------------- */
-                /* -------------------- 
+
 GUIDE
 */
                 
