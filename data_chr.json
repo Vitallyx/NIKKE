@@ -745,7 +745,7 @@
         "character_skill1": "While in Full Burst :<br><span class='self'>Gain </span><span class='bonus'>DEF +5% </span>for 5 sec.<br><br>Cast on <span class='enemy'>all enemies</span> Shared Damage: Share the Pain for 5 sec.",
         "character_skill2_title": "Last Memory",
         "character_skill2_cd": "",
-        "character_skill2": "When firing the last round of ammunition :<br>Cast on one <span class='enemy'>enemie</span> Organic Damage <span class='enemy'>110%</span> and <span class='enemy'>ATK -5%</span> for 3 sec.",
+        "character_skill2": "When firing the last round of ammunition :<br>Cast on <span class='enemy'>enemie hit</span> Organic Damage <span class='enemy'>110%</span> and <span class='enemy'>ATK -5%</span> for 3 sec.",
         "character_ultimate_title": "Remember Me",
         "character_ultimate_cd": "",
         "character_ultimate": "",
