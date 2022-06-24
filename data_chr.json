@@ -206,7 +206,7 @@
         "character_skill2": "After hitting the same <span class='enemy'>enemy</span> with <span class='rng'>40 </span>rounds, Lock-on for 5 sec.<br><br>When hitting an <span class='enemy'>enemy</span> who is locked-on :<br><span class='bonus'><span class='self'>Gain </span>Metal Damage +20%</span>.<br><span class='self'>Gain </span><span class='enemy'>Steal </span><span class='bonus'>20% HP</span>.",
         "character_ultimate_title": "AK Missile",
         "character_ultimate_cd": "",
-        "character_ultimate": "Metal Damage <span class='enemy'>500%</span> on <span class='enemy'>all enemies</span>.<br><br>When hitting enemies who are locked-on :<br><span class='self'>Gains </span><span class='bonus'>Metal ATK +20%</span> for 10 sec.<br>Additional Metal Damage<span class='enemy'> 150%</span>.",
+        "character_ultimate": "Cast on <span class='enemy'>all enemies</span> Metal Damage <span class='enemy'>500%</span>.<br><br>When hitting enemies who are locked-on :<br><span class='self'>Gains </span><span class='bonus'>Metal ATK +20%</span> for 10 sec.<br>Additional Metal Damage<span class='enemy'> 150%</span>.",
         "character_video": "video/Liberty.mp4"
     },
     {
