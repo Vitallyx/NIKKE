@@ -170,13 +170,13 @@
         "character_auto": "",
         "character_skill1_title": "DMNS",
         "character_skill1_cd": "Passive",
-        "character_skill1": "When shooting :<br>There is a <span class='rng'>10%</span> of the player casting Beast Mode on themselves.<br>Beast Mode: <span class='bonus'>ATK +10%</span> for 10 sec.<br><br>There is a <span class='rng'>10%</span> chance of casting.<span class='bonus'><br><span class='self'>Gain</span> Reloading Speed +10%</span> for 10 sec.<br><br>Cast on one <span class='enemy'>enemy </span>: Attract Fire for 10 sec.",
+        "character_skill1": "When shooting :<br>There is a <span class='rng'>10%</span> of the player casting Beast Mode on themselves.<br>Beast Mode: <span class='bonus'>ATK +10%</span> for 10 sec.<br><br>There is a <span class='rng'>10%</span> chance of casting.<span class='bonus'><br><span class='self'>Gain</span> Reloading Speed +10%</span> for 10 sec.<br>Cast on one <span class='enemy'>enemy </span>: Attract Fire for 10 sec.",
         "character_skill2_title": "SDS",
         "character_skill2_cd": "Passive",
-        "character_skill2": "After firing <span class='rng'>10</span> rounds of ammunition :<br><span class='enemy'>Steal</span><span class='bonus'> 10% HP</span> for 10 sec.<br><span class='self'>Gain</span> <span class='bonus'>DEF +10%</span> for 10 sec.<br><br>Also cast on <span class='enemy'>all enemies hit </span>: <span class='enemy'>DEF -10%</span> for 10 sec.<br><br>When Beast Mode is on, gain an additional :<br><span class='enemy'>Steal</span><span class='bonus'> 10% HP</span> for 10 sec.<br><span class='self'>Gain</span> <span class='bonus'>DEF +10%</span> for 10 sec.<br><br>When Beast Mode is cast, cast on <span class='enemy'>all enemies hit</span> after expending <span class='rng'>10</span> rounds of ammunition : <span class='enemy'>DEF -10%</span> for 10 sec.",
+        "character_skill2": "After firing <span class='rng'>10</span> rounds of ammunition :<br><span class='enemy'>Steal</span><span class='bonus'> 10% HP</span> for 10 sec.<br><span class='self'>Gain</span> <span class='bonus'>DEF +10%</span> for 10 sec.<br>Also cast on <span class='enemy'>all enemies hit </span>: <span class='enemy'>DEF -10%</span> for 10 sec.<br><br>When Beast Mode is on, gain an additional :<br><span class='enemy'>Steal</span><span class='bonus'> 10% HP</span> for 10 sec.<br><span class='self'>Gain</span> <span class='bonus'>DEF +10%</span> for 10 sec.<br><br>When Beast Mode is cast, cast on <span class='enemy'>all enemies hit</span> after expending <span class='rng'>10</span> rounds of ammunition : <span class='enemy'>DEF -10%</span> for 10 sec.",
         "character_ultimate_title": "BDG",
         "character_ultimate_cd": "",
-        "character_ultimate": "Cast on <span class='enemy'>all enemies</span> in a designated area :<br>Metal Damage <span class='enemy'>500%</span>.<br><br><span class='enemy'>Enemy </span>move forcibly to the location where the skill is cast.",
+        "character_ultimate": "Cast on <span class='enemy'>all enemies</span> in a designated area, Metal Damage <span class='enemy'>500%</span>.<br><br><span class='enemy'>Enemy </span>move forcibly to the location where the skill is cast.",
         "character_video": "video/Yuni.mp4"
     },
     {
@@ -206,7 +206,7 @@
         "character_skill2": "After hitting the same <span class='enemy'>enemy</span> with <span class='rng'>40 </span>rounds, Lock-on for 5 sec.<br><br>When hitting an <span class='enemy'>enemy</span> who is locked-on :<br><span class='bonus'><span class='self'>Gain </span>Metal Damage +20%</span>.<br><span class='self'>Gain </span><span class='enemy'>Steal </span><span class='bonus'>20% HP</span>.",
         "character_ultimate_title": "AK Missile",
         "character_ultimate_cd": "",
-        "character_ultimate": "Metal Damage <span class='enemy'>500%</span> on <span class='enemy'>all enemies</span>.<br><br>When hitting enemies who are locked-on :<br><span class='self'>Gains </span><span class='bonus'>Metal ATK +20%</span> for 10 sec.<br><br>Additional Metal Damage<span class='enemy'> 150%</span>.",
+        "character_ultimate": "Metal Damage <span class='enemy'>500%</span> on <span class='enemy'>all enemies</span>.<br><br>When hitting enemies who are locked-on :<br><span class='self'>Gains </span><span class='bonus'>Metal ATK +20%</span> for 10 sec.<br>Additional Metal Damage<span class='enemy'> 150%</span>.",
         "character_video": "video/Liberty.mp4"
     },
     {
@@ -293,7 +293,7 @@
         "character_skill1": "When shooting :<br>There is a <span class='rng'>10%</span> chance of stacking up Dissonance on <span class='enemy'>enemy hit</span>.<br>Dissonance: <span class='enemy'>DEF -1%</span> Max Stack: 10 for 5 sec.<br><br><span class='self'>Gain </span><span class='bonus'>Critical Rate +10%</span> for 5 sec.<br><span class='enemy'><span class='self'>Gain </span>Spread -10%</span> for 5 sec.",
         "character_skill2_title": "Crescendo",
         "character_skill2_cd": "",
-        "character_skill2": "When the spell is cast :<br><span class='self'>Gain </span><span class='bonus'>Burst ATK +2%</span> Max Stack 5 for 10 sec.<br><br><span class='self'>Gain </span><span class='bonus'>Organic Damage +10% </span> for 5 sec.<br><span class='self'>Gain </span><span class='bonus'>Critical Damage +50% </span> for 5 sec.",
+        "character_skill2": "When the spell is cast :<br><span class='self'>Gain </span><span class='bonus'>Burst ATK +2%</span> Max Stack 5 for 10 sec.<br><span class='self'>Gain </span><span class='bonus'>Organic Damage +10% </span> for 5 sec.<br><span class='self'>Gain </span><span class='bonus'>Critical Damage +50% </span> for 5 sec.",
         "character_ultimate_title": "Climax",
         "character_ultimate_cd": "",
         "character_ultimate": "Cast on <span class='enemy'>all enemies</span> True Damage <span class='enemy'>200%</span>.<br><br>According to the number of Burst stacks, also cast on <span class='enemy'>all enemies</span> True Damage <span class='enemy'>20%</span> x <span class='rng'>the number of Burst stacks</span>.<br><br>Cast on <span class='enemy'>enemy</span> whose Dissonance reaches Max Stack : Lock-on for 5 sec.",
@@ -387,7 +387,7 @@
         "character_skill2": "When attacked :<br>There is a <span class='rng'>10% </span> chance of <span class='self'>Gain </span> Strawberry Candy.<br><br>While in Full Burst :<br>After firing <span class='rng'>50</span> rounds <span class='self'>Gain </span> Strawberry Candy.<br><br>Strawberry Candy : <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec).<br><br>When Strawberry Candy is fully stacked <span class='allies'>Apply on all allies </span><span class='bonus'>reload 90 % of ammunition</span>",
         "character_ultimate_title": "Strawberry Shock",
         "character_ultimate_cd": "Cooldown : 30.00s",
-        "character_ultimate": "Metal Damage <span class='enemy'>350%</span> on <span class='enemy'>5 enemy</span> with the highest ATK and <span class='enemy'>ATK -10%</span> for 10 sec.<br><br><span class='self'>Gain </span> Strawberry Candy: <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec) Stack Up <span class='bonus'>4</span>.",
+        "character_ultimate": "Cast on <span class='enemy'>5 enemy</span> with the highest ATK, Metal Damage <span class='enemy'>350%</span> and <span class='enemy'>ATK -10%</span> for 10 sec.<br><br><span class='self'>Gain </span> Strawberry Candy: <span class='bonus'>Magazine Capacity +2%</span> (Max Stack : 6 for 10sec) Stack Up <span class='bonus'>4</span>.",
         "character_video": "video/Diesel.mp4"
     },
     {
@@ -472,7 +472,7 @@
         "character_auto": "",
         "character_skill1_title": "CPR",
         "character_skill1_cd": "Passive",
-        "character_skill1": "When firing the last round of ammunition :<br>Apply on <span class='allies'>all allies</span> CPR: <span class='bonus'>Recover 1% HP</span> Max Stack: 2 for 5 sec.<br><br>When CPR is fully stacked :<br><span class='allies'>All allies </span><span class='bonus'>recover 60% of Damage Taken HP</span> takes effect continuously for 1 times of attack received.",
+        "character_skill1": "When firing the <span class='rng'>last round of ammunition</span> :<br>Apply on <span class='allies'>all allies</span> CPR: <span class='bonus'>Recover 1% HP</span> Max Stack: 2 for 5 sec.<br><br>When CPR is fully stacked :<br><span class='allies'>All allies </span><span class='bonus'>recover 60% of Damage Taken HP</span> takes effect continuously for 1 times of attack received.",
         "character_skill2_title": "Nursing",
         "character_skill2_cd": "",
         "character_skill2": "",
@@ -745,7 +745,7 @@
         "character_skill1": "While in Full Burst :<br><span class='self'>Gain </span><span class='bonus'>DEF +5% </span>for 5 sec.<br><br>Cast on <span class='enemy'>all enemies</span> Shared Damage: Share the Pain for 5 sec.",
         "character_skill2_title": "Last Memory",
         "character_skill2_cd": "",
-        "character_skill2": "When firing the last round of ammunition :<br>Cast on <span class='enemy'>enemie hit</span> Organic Damage <span class='enemy'>110%</span> and <span class='enemy'>ATK -5%</span> for 3 sec.",
+        "character_skill2": "When firing the <span class='rng'>last round of ammunition</span> :<br>Cast on <span class='enemy'>enemie hit</span> Organic Damage <span class='enemy'>110%</span> and <span class='enemy'>ATK -5%</span> for 3 sec.",
         "character_ultimate_title": "Remember Me",
         "character_ultimate_cd": "",
         "character_ultimate": "",
