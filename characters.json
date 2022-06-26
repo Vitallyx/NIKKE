@@ -10,7 +10,7 @@
         "character_name": "Sugar",
         "character_thumbnail": "images/thumbnail/Sugar.webp",
         "character_rarity": "super_super_rare",
-        "character_rank": 4
+        "character_rank": 2
     },
     {
         "character_id": 2,
@@ -45,7 +45,7 @@
         "character_name": "Liberty",
         "character_thumbnail": "images/thumbnail/Liberty.webp",
         "character_rarity": "super_super_rare",
-        "character_rank": 0
+        "character_rank": 2
     },
     {
         "character_id": 7,
@@ -108,7 +108,7 @@
         "character_name": "Mary",
         "character_thumbnail": "images/thumbnail/Mary.webp",
         "character_rarity": "super_super_rare",
-        "character_rank": 4
+        "character_rank": 1
     },
     {
         "character_id": 16,
@@ -143,7 +143,7 @@
         "character_name": "Scarlet",
         "character_thumbnail": "images/thumbnail/Scarlet.webp",
         "character_rarity": "super_super_rare",
-        "character_rank": 4
+        "character_rank": 0
     },
     {
         "character_id": 21,
