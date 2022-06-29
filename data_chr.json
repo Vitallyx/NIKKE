@@ -478,7 +478,7 @@
         "character_skill2": "Cast on<span class='allies'> 2 allies </span>(with the lowest HP) :<br><span class='bonus'> HP Potency +7%</span> for 5sec.<br><span class='bonus'>Recover 2% HP </span> for 5 sec.",
         "character_ultimate_title": "White Angels",
         "character_ultimate_cd": "Cooldown : 30.00s",
-        "character_ultimate": "Cast on <span class='allies'>all allies</span><br><span class='bonus'> HP Potency +30%</span> for 15 sec.<br><span class='bonus'>Recover 35% HP</span>.<br><br>When HP is lower than <span class='rng'>10%</span> :<br><span class='allies'>All allies</span><span class='bonus'> recover 30% HP</span>.",
+        "character_ultimate": "Cast on <span class='allies'>all allies</span> :<br><span class='bonus'> HP Potency +30%</span> for 15 sec.<br><span class='bonus'>Recover 35% HP</span>.<br><br>When HP is lower than <span class='rng'>10%</span> :<br><span class='allies'>All allies</span><span class='bonus'> recover 30% HP</span>.",
         "character_video": "video/Mary.mp4"
     },
     {
