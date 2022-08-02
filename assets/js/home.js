@@ -1,5 +1,3 @@
-// Slider
-
 let prev = document.querySelector('.fa-chevron-left');
 let next = document.querySelector('.fa-chevron-right');
 let slide = document.querySelector('.wrapper');

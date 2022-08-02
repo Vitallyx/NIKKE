@@ -7,7 +7,6 @@ window.addEventListener('scroll', function() {
     header.classList.toggle("sticky", this.window.scrollY > 0);
 })
 
-
 ///////////////////////////////////
 // Header Mobile
 

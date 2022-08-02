@@ -1,6 +1,3 @@
-///////////////////////////////////
-// Characters
-
 const main = document.getElementById('list-character');
 
 async function fetchData() {

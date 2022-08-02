@@ -1,6 +1,3 @@
-///////////////////////////////////
-// Tier List
-
 const ssTier = document.getElementById('ssTier');
 const sTier = document.getElementById('sTier');
 const aTier = document.getElementById('aTier');
