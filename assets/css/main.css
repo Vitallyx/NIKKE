@@ -615,7 +615,7 @@ CHARACTER*/
                 .details .galerie {
                     display: flex;
                     flex-direction: column;
-                    background-image: url("https://i.imgur.com/clOGIs8.png");
+                    background-image: url("../images/bg.webp");
                     width: 100%;
                 }
                 
@@ -854,6 +854,10 @@ CHARACTER*/
                     user-select: none;
                 }
                 
+                i {
+                    font-style: normal;
+                }
+                
                 .self {
                     color: #d86c14;
                 }
@@ -870,7 +874,7 @@ CHARACTER*/
                     color: #ba23d8;
                 }
                 
-                .allies {
+                .ally {
                     color: #318a1a;
                 }
                 

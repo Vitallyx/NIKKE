@@ -7,6 +7,7 @@ const aTier = document.getElementById('aTier');
 const bTier = document.getElementById('bTier');
 const cTier = document.getElementById('cTier');
 
+
 async function fetchData() {
     const response = await fetch('./characters.json');
     const data = await response.json();
